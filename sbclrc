@@ -1,0 +1,2 @@
+(slynk:create-server :port 4005 :dont-close t)
+(setf slynk:*use-dedicated-output-stream* nil)
